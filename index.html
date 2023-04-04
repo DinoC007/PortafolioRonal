@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="util/probas.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="titulo">
+            <h2>Mi Portafolio</h2>
+        </div>
+
+        <div class="circulo"><span>img</span></div>
+        <div class="inicio arriba " id="btn-ini">
+            <span>INICIO</span>
+        </div>
+        <div class="experiencia arriba" id="btn-experiencia"><span>Formacion</span></div>
+        <div class="proyectos abajo" id="btn-proyectos"><span>Experiencia</span></div>
+        <div class="contacto abajo" id="btn-contacto"><span>Contacto</span></div>
+
+        <!--Para los contenidos-->
+        <div class="cont-inicio content hidden">
+            <img src="/img/parte1.jpg" alt="ciberpuck">
+            <div>
+                <h2>Sobre Mí</h2>
+                <p>Soy un Profesional Técnico en Computación e Informática y Desarrollador Web Front-End adaptable a las nuevas circunstancias, con habilidades para el aprendizaje continuo.
+                </p>
+            </div>
+
+        </div>
+        <div class="cont-experiencia content hidden">
+            <img src="/img/parte2.jpg" alt="ciberpuck">
+            <div>
+                <h2>Formacion:</h2>
+                <ul>
+                    <li>Estudio Superior: </br>
+                        <Span class="t-carrera">Tecnico Profesional en Computacion e informatica <br></Span>
+                        <span class="text-carrera"> Instituto de Educación Superior Tecnológico Publico Espinar.</span>
+                    </li>
+                    <li>Cursos:</br>
+                        <ul>
+                            <li class="t-carrera">Diseño y Gestión de Redes Inalámbricas.</li>
+                            <li class="t-carrera">Seminario de Tecnologías información, servidores y automatización.</li>
+                            <li class="t-carrera">Microsoft Excel Intermedio, Funciones, Tablas Dinámicas y +</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cont-proyectos content hidden">
+            <img src="/img/parte3.jpg" alt="ciberpuck">
+            <div>
+                <h2>Proyectos:</h2>
+                <ul>
+                    <li class="t-carrera">Desarrollo de sitio web para el Instituto Politécnico del Sur Espinar (istpolitecnicodelsur.edu.pe). <a href="https://istpolitecnicodelsur.edu.pe/" target="_blank">Ver Aqui</a></li>
+                    <li class="t-carrera">Sistema de Venta pequeño en Excel integrado con Macros para el registro de ventas y registro de productos.<a href="https://drive.google.com/file/d/1pM3QPjS_Qk8XBXJwqGmMldFGJfKwjA3S/view?usp=share_link" target="_blank">Ver Aqui</a></li>
+
+                    <li>Sistema de Parqueadero en java y mysql
+                    <a href="https://drive.google.com/file/d/17_3ASjHRywAYxgXrR4wqOTRoprh8e7WL/view" target="_blank">Ver Aqui</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cont-contacto content hidden">
+            <img src="/img/parte4.jpg" alt="ciberpuck">
+            <div>
+                <h2>Contacto:</h2>
+                <p>Puedes contactarme por estos medios.</p>
+                <li>Whatsapp: <a href="https://api.whatsapp.com/send?phone=51927287607&text=hola,Desde el Portafolio" target="_blank">Contactarme</a></li>
+            </div>
+        </div>
+
+
+        <div class="nombre">
+            <h2>Ronaldino Alcca </h2>
+        </div>
+
+    </div>
+
+    <!--Para el menu responsy-->
+    <img src="/img/menu-regular-24.png" alt="menu" class="menu-bar">
+    <nav class="menu-responsy hidden">
+        <a href="#" id="menu-perfil">Perfil</a>
+        <a href="#" id="menu-formacion">Formacion</a>
+        <a href="#" id="menu-Experiencia">Experiencia</a>
+        
+    </nav>
+
+    <div class="flex-responsy">
+
+        <!-- <img src="/img/centralimg-removebg-preview.png" alt="" class="img-central-r"> -->
+        <div class="central">
+
+
+            <div class="content-perfil">
+                <h1>Ronaldino Alcca</h1>
+            </div>
+            <div class="text-perfil">
+                <h2>Perfil:</h2>
+                <p>Soy un Profesional Técnico en Computación e Informática y 
+                    Desarrollador Web Front-End adaptable a las nuevas circunstancias, con habilidades para el aprendizaje continuo.</p>
+            </div>
+            <div class="footer-perfil">
+                <button class="btn-cv">CV</button>
+                <a href="https://api.whatsapp.com/send?phone=51927287607&text=hola,Desde el Portafolio" target="_blank">Contactame</a>
+            </div>
+        </div>
+
+        <div class="content-formacion hidden">
+            <h1><span>FORMACIÓN</span></h1>
+
+            <ul>
+                <h2>Estudio Superior:</h2>
+                <li>
+                    <span>Profesional Técnico en "Computación e Informática.</span>
+                    <p class="text-content">Instituto de Educación Superior Tecnológico Publico Espinar.</p>
+                </li>
+               
+            </ul>
+            <h1><span>CURSOS</span></h1>
+            <ul>
+                <li><span>Diseño y Gestión de Redes Inalámbricas.</span>
+                    <p class="text-content">Instituto de Educacion Superior Tecnologico Privado - TECSUP.</p>
+                </li>
+                <li><span>Seminario de Tecnologías información, servidores y automatización.</span>
+                    <p class="text-content">Instituto de Educacion Superior - MARIA MONTESSORI.</p>
+                </li>
+                <li><span>Microsoft Excel Intermedio, Funciones, Tablas Dinámicas y +</span>
+                    <p class="text-content">Udemy -  Numpi Cursos</p>
+                </li>
+                
+            </ul>
+            <h1><span>HABILIDADES</span></h1>
+            <ul>
+                <li><span>Microsoft Word y Excel (Avanzado)</span>
+                </li>
+                <li><span>Desarrollo web Front End con HTML, CSS, JavaScript</span>
+                </li>
+                <li><span>Wordpress - intermedio</span>
+                </li>
+                <li><span>Gestión de Base de datos(mysql, Sql)</span>
+                </li>
+            </ul>
+
+            <div class="footer-perfil">
+                <button class="btn-cv">CV</button>
+                <a href="https://api.whatsapp.com/send?phone=51927287607&text=hola,Desde el Portafolio" target="_blank">Contactame</a>
+            </div>
+        </div>
+
+        <div class="content-exp hidden">
+            <h1><span>EXPERIENCIA</span></h1>
+
+            <ul>
+                <li><span>Soporte técnico Externo - Instituto Politécnico del Sur Espinar</span>
+                    <p class="text-content">Proporcioné soporte técnico a la institución educativa en la creación de base de datos y mantenimiento de su sitio web institucional como trabajador independiente.</p>
+                </li>
+                <li><span>Desarrollador web Independiente</span>
+                    <p class="text-content">Desarrolle proyectos de construcción de páginas web.
+                        Instituto politécnico del Sur (istpolitecnicodelsur.edu.pe)
+                        Yallasti.com
+                         Cetpro Ñaupay (https://cetpronaupay.github.io/)
+                    </p>
+                </li>
+                <li><span>Practicante en Cetpro - Ñaupay</span>
+                    <p class="text-content">Funciones: Mantenimiento de Equipos de Cómputo, Creación y diseño de página institucional.</p>
+                </li>
+                <li><span>Practicante en Cetpro - Espinar</span>
+                    <p class="text-content">Funciones: Mantenimiento y Administración de la Sala de cómputo.</p>
+                </li>
+                <li><span>Practicante en UGEL -ESPINAR</span>
+                    <p class="text-content">Funciones: Recepción y derivado de Documentos, Emisión de boletas de pagos, duplicado de boletas y constancia de pago</p>
+                </li>
+            </ul>
+            <h1><span>PROYECTOS</span></h1>
+            <ul>
+                <li><span>Desarrollo de sitio web para el Instituto Politécnico del Sur Espinar <a href="https://istpolitecnicodelsur.edu.pe/" target="_blank">(istpolitecnicodelsur.edu.pe)</a>.</span>
+                    <p class="text-content">El sitio fue diseñado con HTML, CSS, JavaScript, y también se utilizó WordPress para gestionar el contenido. Además, se integró una base de datos MySQL.</p>
+                </li>
+                <li><span>Sistema de Venta Con Macros En Excel</span>
+                    <p class="text-content">Sistema de Venta pequeño en Excel integrado con Macros para el registro de ventas y registro de productos <a href="https://drive.google.com/file/d/1pM3QPjS_Qk8XBXJwqGmMldFGJfKwjA3S/view?usp=share_link" target="_blank">Ver Aqui</a> .</p>
+                </li>
+                <li>Sistema de Parqueadero en java y mysql
+                    <p class="text-content">Sistema de parquedero desarrollado con java y mysql para la gestion de datos con modulos de registro cliente, registro de vehiculos y control de estacionamiento <a href="https://drive.google.com/file/d/17_3ASjHRywAYxgXrR4wqOTRoprh8e7WL/view" target="_blank">Ver Aqui</a> .</p>
+                </li>
+                <li><span>Desarrollo de sitio web para el Instituto Educativa Cetpro - Espinar</span>
+                    <a href="https://cetproespinar.github.io/" target="_blank">Ver Aqui</a>
+                </li>
+                <li><span>Desarrollo de sitio web para el Instituto Educativa Cetpro - Ñaupay</span>
+                    <a href="https://cetpronaupay.github.io/" target="_blank">Ver Aqui</a>
+                </li>
+            </ul>
+
+            <div class="footer-perfil">
+                <button class="btn-cv">CV</button>
+                <a href="https://api.whatsapp.com/send?phone=51927287607&text=hola,Desde el Portafolio" target="_blank">Contactame</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="util/index.js"></script>
+    <script src="util/menu.js"></script>
+</body>
+
+</html>
